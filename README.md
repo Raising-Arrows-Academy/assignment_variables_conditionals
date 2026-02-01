@@ -1,31 +1,28 @@
-# Python Starter Template
+# Variables and Conditional Statements Assignment
 
-Welcome! This is your starting point for Python programming projects. Everything is set up and ready to go - you just need to start coding!
+## About This Assignment
 
-## 🚀 Getting Started (Easy Way - Recommended!)
+This assignment lets you practice what we learned in class about **variables** and **conditional statements** in Python. You'll write code to create variables, use them to store information, print them out, and then use conditional statements to make decisions based on those values.
 
-### Using GitHub Codespaces
+**What You'll Learn:**
 
-**This is the easiest way to get started - no installation needed!**
+- How to create and use variables (strings, numbers, booleans)
+- How to print variable values
+- How to write if, elif, and else statements to make decisions in your code
 
-1. Click the green **"Code"** button at the top of this page
-2. Click on the **"Codespaces"** tab
-3. Click **"Create codespace on main"**
-4. Wait about 1-2 minutes while your coding environment sets up
-5. You're ready to code! Everything is installed automatically.
+**Your Task:**
+Open `main.py` and follow the 3 steps outlined in the comments. Each step has clear instructions to guide you!
 
-**That's it!** Your environment is ready. All the tools you need are already installed.
+## 🚀 Getting Started
 
-### What's Installed in Your Codespace?
+Your coding environment is already set up and ready to go. Everything you need is installed automatically!
 
-Your coding environment includes these helpful tools:
-- **Python Test Explorer** - See and run your tests with a visual interface (look for the beaker icon 🧪 in the sidebar)
-- **Python Debugger** - Step through your code line by line to find bugs
-- **Spell Checker** - Helps catch typos in your code and comments
-- **Auto-Formatting** - Your code is automatically formatted to look professional when you save (using Black and Prettier)
-- **Type Checking** - Alerts you to potential errors before you run your code
+**Your environment includes:**
 
-All AI assistance (like Copilot) is turned off so you can learn by doing!
+- Python (ready to run your code)
+- Python Test Explorer (to check your work with the beaker icon 🧪 in the sidebar)
+- A Python Debugger (to step through code and find bugs)
+- Auto-Formatting (your code looks clean when you save)
 
 ## 💻 Running Your First Program
 
@@ -53,9 +50,10 @@ Tests help make sure your code works correctly. You can run tests in two ways:
    pytest
    ```
 2. Press Enter
-3. You should see that 2 tests passed ✓
+3. You should see that tests passed ✓
 
 To see more details about what each test does:
+
 ```bash
 pytest -v
 ```
@@ -73,20 +71,13 @@ pytest -v
 ## 📁 What's in This Project?
 
 ```
-python-starter/
-├── main.py              # Your main program - start here!
+assignment_variables_conditionals/
+├── main.py              # Your assignment - complete the 3 steps!
 ├── tests/               # Tests to check if your code works
-│   └── test_main.py     # Example test file
-├── requirements.txt     # List of Python tools needed
+│   └── test_main.py     # Tests for your assignment
+├── requirements.txt     # Python tools needed
 └── README.md           # This file (instructions)
 ```
-
-## 📝 How to Start Your Own Project
-
-1. **Open `main.py`** - This is where you'll write your code
-2. **Edit the code** - Change the message or add new features
-3. **Run it** - Use `python main.py` to see your changes
-4. **Test it** - Use `pytest` to make sure everything works
 
 ## 🆘 Need Help?
 
@@ -100,21 +91,3 @@ python-starter/
 - Run your code frequently to catch mistakes early
 - Start small and build up - don't try to write everything at once
 - If something doesn't work, try reading the error message - it usually gives you a hint!
-
-## 🌐 Using This on Your Own Computer (Optional)
-
-If you want to work on your own computer instead of Codespaces:
-
-1. **Install Python** from [python.org](https://www.python.org/downloads/)
-2. **Clone this repository:**
-   ```bash
-   git clone https://github.com/scottluskraa/python-starter.git
-   cd python-starter
-   ```
-3. **Install the required tools:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. **Start coding!**
-
-But remember - using Codespaces is easier and requires no setup!
