@@ -13,7 +13,7 @@ Instructions:
 
 Running the example:
   In your terminal enter the following and press enter
-  python main.py 
+  python main.py
 
 Expected Output:
   Depending upon what values you set for your variables, your output should look
@@ -30,35 +30,35 @@ Expected Output:
 """
 
 
-def main(): 
+def main():
     # here for display purposes
     print("=" * 75)
 
     # ------------------------------------------------------------
-    # STEP 1: 
+    # STEP 1:
     #   Create variables
     #
     # Instructions:
     #   You will need 3 variables to help you with this assignment
-    #   placeholders are below indicating the variable and it's 
+    #   placeholders are below indicating the variable and it's
     #   data type that you should use.
     # ------------------------------------------------------------
 
     # store the member's name (string)
-    name="Kai"
+    name = "Kai"
 
     # store the number of books currently check out (number)
-    number_of_books=4
+    number_of_books = 4
 
     # store whether the library account is active (boolean)
-    account_active=True
+    account_active = True
 
     # ------------------------------------------------------------
-    # STEP 2: 
+    # STEP 2:
     #   Print the member's information
-    # 
+    #
     # Instructions:
-    #   We want to PRINT the information for the member. You can 
+    #   We want to PRINT the information for the member. You can
     #   do this using the Python print function, see example below.
     #
     # Example:
@@ -66,7 +66,7 @@ def main():
     #   print("Name:", name)
     #
     # ------------------------------------------------------------
- 
+
     # print the member's name
     print("Member Name:", name)
 
@@ -74,27 +74,25 @@ def main():
     print("Books Checked Out:", number_of_books)
 
     # print whether the library account is active
-    print("Account Active:", account_active)
+    print("Account Active: ", account_active)
 
     # ------------------------------------------------------------
-    # STEP 3: 
+    # STEP 3:
     #   Use conditional statements to check library rules
-    # 
+    #
     # Instructions:
     #   Write conditional statements that check the library rules
     #     Rules:
     #       - The account must be active
     #       - A member can check out up to 5 books
-    # 
-    #   The expected result is PRINT using the print function, 
+    #
+    #   The expected result is PRINT using the print function,
     #   to indicate if the member can checkout any more books
     #
     # ------------------------------------------------------------
 
     # conditional statement goes here to check library rules
     # You must use an if, elif, and else conditional statement
-    
-
 
     # ------------------------------------------------------------
     # here for display purposes
