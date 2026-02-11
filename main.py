@@ -74,14 +74,14 @@ def main():
     print("Books Checked Out:", number_of_books)
 
     # print whether the library account is active
-    print("Account Active: ", account_active)
+    print("Account Active:", account_active)
 
     # ------------------------------------------------------------
     # STEP 3:
     #   Use conditional statements to check library rules
     #
     # Instructions:
-    #   Write conditional statements that check the library rules
+    #   Write a compound conditional statement that checks the library rules
     #     Rules:
     #       - The account must be active
     #       - A member can check out up to 5 books
@@ -89,10 +89,18 @@ def main():
     #   The expected result is PRINT using the print function,
     #   to indicate if the member can checkout any more books
     #
+    #   The member cannot checkout a book if all rules are not met
     # ------------------------------------------------------------
 
     # conditional statement goes here to check library rules
     # You must use an if, elif, and else conditional statement
+    
+    if not account_active:
+        print("You can NOT check out any books. You do not have an active account")
+    elif number_of_books >= 5:
+        print("You can NOT check out more books, you've reached the 5 book max")
+    else:
+        print("You can check out more books.")
 
     # ------------------------------------------------------------
     # here for display purposes
